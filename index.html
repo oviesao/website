@@ -11,13 +11,17 @@
   <nav id="navbar">
     <div class="nav-content">
       <div class="logo">
-        <a href="#welcome-section">
-          <span class="logo-text">Oviesa Oboh</span>
-        </a>
+        <a href="#welcome-section" class="logo-text">Oviesa Oboh</a>
       </div>
       <ul class="nav-links">
         <li><a href="#welcome-section">About</a></li>
-        <li><a href="#projects">Projects</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-btn">Projects <i class="fas fa-caret-down"></i></a>
+          <ul class="dropdown-content">
+            <li><a href="projects.html">Software</a></li>
+            <li><span class="disabled">Hardware <span class="coming-soon">(Coming Soon)</span></span></li>
+          </ul>
+        </li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#contact">Contact</a></li>
         <li>
@@ -34,7 +38,7 @@
       <h1>Hi, I'm Oviesa</h1>
       <p>A software engineer driven to create dynamic websites, intuitive mobile apps, and robust software that turn ideas into engaging user experiences.</p>
       <div class="profile-box">
-        <img src="C:\Users\ovieo\Desktop\test\Job application profile picture.jpg" alt="Oviesa Oboh" class="profile-pic">
+        <img src="C:\Users\ovieo\Desktop\Portfolio\Job application profile picture.jpg" alt="Oviesa Oboh" class="profile-pic">
       </div>
     </div>
   </section>
@@ -67,7 +71,7 @@
         <p class="project-title">Blog Platform</p>
       </a>
     </div>
-    <a href="#projects" class="show-all">Show all <i class="fas fa-chevron-right"></i></a>
+    <a href="projects.html" class="show-all">Show all <i class="fas fa-chevron-right"></i></a>
   </section>
 
   <section id="skills">
