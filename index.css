@@ -1,3 +1,4 @@
+/* Base reset and theme setup */
 :root {
     --bg-color: #F8F5F2; /* Soft Ivory */
     --text-color: #2E2E2E; /* Dark Slate */
@@ -30,6 +31,7 @@
     transition: background-color 0.3s ease, color 0.3s ease;
   }
   
+  /* Navbar */
   #navbar {
     background-color: var(--secondary-color);
     border-bottom: 1px solid var(--border-color);
@@ -79,6 +81,7 @@
     color: var(--accent-color);
   }
   
+  /* Dropdown styles */
   .dropdown {
     position: relative;
   }
@@ -130,6 +133,7 @@
     color: var(--accent-color);
   }
   
+  /* Disabled dropdown item */
   .dropdown-content .disabled {
     color: var(--secondary-color);
     cursor: not-allowed;
@@ -145,6 +149,7 @@
     color: var(--secondary-color);
   }
   
+  /* Theme toggle button */
   .theme-toggle {
     background: none;
     border: none;
@@ -153,6 +158,7 @@
     font-size: 1.2rem;
   }
   
+  /* Welcome Section */
   #welcome-section {
     text-align: center;
     padding: 4rem 1rem;
@@ -173,6 +179,7 @@
     color: var(--secondary-color);
   }
   
+  /* Profile Picture Box */
   .profile-box {
     margin-top: 2rem;
     padding: 0.5rem;
@@ -192,6 +199,7 @@
     display: block;
   }
   
+  /* Projects */
   #projects {
     padding: 4rem 1rem;
     text-align: center;
@@ -243,6 +251,7 @@
     color: var(--accent-color);
   }
   
+  /* Expanded projects page styles */
   .expanded-projects .projects-grid {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2.5rem;
@@ -262,6 +271,7 @@
     font-weight: 500;
   }
   
+  /* Show All Link */
   .show-all {
     display: inline-block;
     margin-top: 2rem;
@@ -279,6 +289,7 @@
     margin-left: 0.5rem;
   }
   
+  /* Skills Section */
   #skills {
     padding: 4rem 1rem;
     background-color: var(--bg-color);
@@ -370,6 +381,7 @@
     margin-right: 0.5rem;
   }
   
+  /* Contact Section */
   #contact {
     padding: 4rem 1rem;
     text-align: center;
@@ -435,6 +447,7 @@
     transform: translateY(-2px);
   }
   
+  /* Footer */
   footer {
     padding: 1rem;
     background-color: var(--footer-bg);
@@ -469,6 +482,7 @@
     color: var(--accent-color);
   }
   
+  /* Responsive adjustments */
   @media (max-width: 768px) {
     .footer-content {
       flex-direction: column;
@@ -476,7 +490,7 @@
     }
     
     .footer-social {
-      margin-top: 0.5rem; 
+      margin-top: 0.5rem; /* Reduced margin for smaller footer */
     }
     
     .skills-list {
