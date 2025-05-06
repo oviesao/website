@@ -42,6 +42,3 @@ personal-website/
 ![Screenshot of Personal Website]
 (images/screenshot.png)
 
-
-## 🌐 Live Demo
-
