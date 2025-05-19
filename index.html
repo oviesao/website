@@ -3,49 +3,56 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Oviesa O</title>
+  <title>Oviesa Oboh</title>
   <link rel="icon" type="image/png" href="images/ovi-blue-red.jpg" />
   <link rel="stylesheet" href="index.css" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+  <script src=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
 </head>
 <body>
-  <nav id="navbar">
-    <div class="nav-content">
-      <div class="logo">
-        <a href="#welcome-section" class="logo-text">Oviesa Oboh</a>
-      </div>
-      <ul class="nav-links">
-        <li><a href="#welcome-section">About</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-btn">Projects <i class="fas fa-caret-down"></i></a>
-          <ul class="dropdown-content">
-            <li><a href="projects.html">Software</a></li>
-            <li><span class="disabled">Hardware <span class="coming-soon">(Coming Soon)</span></span></li>
-          </ul>
-        </li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li>
-          <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
-            <i class="fas fa-moon" aria-hidden="true"></i>
-          </button>
-        </li>
-      </ul>
+  <!-- Updated navigation bar with fixed dropdowns -->
+<nav id="navbar">
+  <div class="nav-content">
+    <div class="logo">
+      <a href="#welcome-section" class="logo-text">Oviesa Oboh</a>
     </div>
-  </nav>
+    <ul class="nav-links">
+      <li class="about-dropdown">
+        <a href="#" class="about-dropdown-btn">About <i class="fas fa-caret-down"></i></a>
+        <ul class="dropdown-content">
+          <li><a href="#">Who I am</a></li>
+          <li><a href="#">Interests</a></li>
+        </ul>
+      </li>
+      <li class="about-dropdown">
+        <a href="#" class="about-dropdown-btn">Projects <i class="fas fa-caret-down"></i></a>
+        <ul class="dropdown-content">
+          <li><a href="projects.html">Software</a></li>
+          <li><span class="disabled">Hardware <span class="coming-soon">(Coming Soon)</span></span></li>
+        </ul>
+      </li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </button>
+      </li>
+    </ul>
+  </div>
+</nav>
 
   <section id="welcome-section">
     <div class="welcome-content">
-      <h1>Hi, I'm Oviesa</h1>
-      <p>A software engineer driven to create dynamic websites, intuitive mobile apps, and robust software that turn ideas into engaging user experiences.</p>
-      <div class="profile-box">
-        <img src="images/portfolio_pic.jpg" alt="Portfolio Picture" alt="Oviesa Oboh" class="profile-pic">
+      <h1>Hi, I'm Ovi</h1>
+      <p>And I like to make stuff.</p>
+      <div class="dp">
+        <img src="images/portfolio_pic.jpg" alt="moi" alt="Oviesa Oboh" class="profile-pic">
       </div>
     </div>
   </section>
 
   <section id="projects">
-    <h2 class="projects-header">These are some of my projects</h2>
+    <h2 class="projects-header">Here's some stuff I've done</h2>
     <div class="projects-grid">
       <a href="https://oviesao.github.io/Country-Capital-Quiz/" target="_blank" class="project-tile">
         <img src="images/capital-quiz-app.png" alt="Project 1">
@@ -69,7 +76,15 @@
       </a>
       <a href="https://example.com/project6" target="_blank" class="project-tile">
         <img src="images/under_construction.png" alt="Project 6">
-        <p class="project-title">Blog Platform</p>
+        <p class="project-title">Blog</p>
+      </a>
+      <a href="https://example.com/project7" target="_blank" class="project-tile">
+        <img src="images/under_construction.png" alt="Project 7">
+        <p class="project-title">Expense Tracker</p>
+      </a>
+      <a href="https://example.com/project8" target="_blank" class="project-tile">
+        <img src="images/under_construction.png" alt="Project 8">
+        <p class="project-title">Web Scraper</p>
       </a>
     </div>
     <a href="projects.html" class="show-all">Show all <i class="fas fa-chevron-right"></i></a>
@@ -86,7 +101,7 @@
           <li><span class="skill-icon"><i class="fab fa-css3-alt"></i></span> <span class="skill-name">CSS</span></li>
           <li><span class="skill-icon"><i class="fab fa-js"></i></span> <span class="skill-name">JavaScript</span></li>
           <li><span class="skill-icon"><i class="fab fa-react"></i></span> <span class="skill-name">React</span></li>
-          <li><span class="skill-icon"><span class="svg-icon-placeholder"></span></span> <span class="skill-name">Redux</span></li>
+          <li><span class="skill-icon"><i class="fa-solid fa-code"></i></span> <span class="skill-name">Redux</span></li>
           <li><span class="skill-icon"><i class="fab fa-js"></i></span> <span class="skill-name">TypeScript</span></li>
         </ul>
       </div>
@@ -96,7 +111,7 @@
         <ul class="skills-list">
           <li><span class="skill-icon"><i class="fab fa-node-js"></i></span> <span class="skill-name">Node.js</span></li>
           <li><span class="skill-icon"><i class="fab fa-php"></i></span> <span class="skill-name">PHP</span></li>
-          <li><span class="skill-icon"><span class="svg-icon-placeholder"></span></span> <span class="skill-name">SQL</span></li>
+          <li><span class="skill-icon"><i class="fas fa-database"></i></span> <span class="skill-name">SQL</span></li>
           <li><span class="skill-icon"><i class="fab fa-java"></i></span> <span class="skill-name">Java</span></li>
         </ul>
       </div>
@@ -105,18 +120,26 @@
         <h3><i class="fas fa-brain"></i> Programming & Scripting Languages</h3>
         <ul class="skills-list">
           <li><span class="skill-icon"><i class="fab fa-python"></i></span> <span class="skill-name">Python</span></li>
-          <li><span class="skill-icon"><span class="svg-icon-placeholder"></span></span> <span class="skill-name">R Programming</span></li>
+          <li><span class="skill-icon"><i class="fa-solid fa-r"></i></span> <span class="skill-name">R Programming</span></li>
           <li><span class="skill-icon"><i class="fab fa-java"></i></span> <span class="skill-name">Java</span></li>
           <li><span class="skill-icon"><i class="fab fa-js"></i></span> <span class="skill-name">TypeScript</span></li>
         </ul>
       </div>
-      
+
+      !--
       <div class="skill-category">
         <h3><i class="fas fa-robot"></i> Robotics / Systems Programming</h3>
         <ul class="skills-list">
-          <li><span class="skill-icon"><span class="svg-icon-placeholder"></span></span> <span class="skill-name">ROS2</span></li>
+          <li><span class="skill-icon"><i class="fas fa-microchip"></i></span> <span class="skill-name">ROS2</span></li>
+          <li><span class="skill-icon"><i class="fas fa-microchip"></i></span> <span class="skill-name">Embedded Systems</span></li>
+          <li><span class="skill-icon"><i class="fas fa-eye"></i></span> <span class="skill-name">Computer Vision</span></li>
+          <li><span class="skill-icon"><i class="fas fa-brain"></i></span> <span class="skill-name">Machine Learning for Robotics</span></li>
+          <li><span class="skill-icon"><i class="fas fa-route"></i></span> <span class="skill-name">Motion Planning & Control</span></li>
+          <li><span class="skill-icon"><i class="fas fa-map-marked-alt"></i></span> <span class="skill-name">SLAM (Simultaneous Localization and Mapping)</span></li>
+          <li><span class="skill-icon"><i class="fas fa-cogs"></i></span> <span class="skill-name">Actuators & Sensors</span></li>
         </ul>
       </div>
+    -->
     </div>
   </section>
 
@@ -159,8 +182,11 @@
         <a href="https://instagram.com/oviesa.o" target="_blank" class="social-link">
           <i class="fab fa-instagram"></i>
         </a>
-        <a href="https://twitter.com/oso_1799" target="_blank" class="social-link">
-          <i class="fab fa-twitter"></i>
+        <a href="https://t.me/oviesao/" target="_blank" class="social-link">
+          <i class="fab fa-telegram"></i>
+        </a>
+        <a href="https://upwork.com/oviesao/" target="_blank" class="social-link">
+          <i class="fa-brands fa-upwork"></i>
         </a>
       </div>
     </div>
